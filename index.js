@@ -10,8 +10,6 @@ for (var i = 0; i < numberOfDrumButton; i++) {
 
     buttonAnimation(btnInnerHTML);
   });
-  var activeButton = document.querySelector("." + currentKey);
-
 }
 
 // Detecting Keyboard Press
@@ -21,8 +19,6 @@ document.addEventListener("keydown", function (event) {
   makeSound(event.key);
 
   buttonAnimation(event.key);
-
-  var activeButton = document.querySelector("." + currentKey);
 
 });
 
@@ -69,6 +65,6 @@ function buttonAnimation(currentKey) {
 
   setTimeout(function() {
     activeButton.classList.remove("pressed");
-  }, 300);
+  }, 100);
 
 }
