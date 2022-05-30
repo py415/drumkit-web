@@ -22,7 +22,7 @@ DrumKit is a web app that allows users to play a set of drums using their keyboa
 
 ## 🎬 App Preview
 
-<img src="https://raw.githubusercontent.com/py415/app-resources/master/Mockups/web/4.%20drumkit-full-screen.png">
+<img src="https://raw.githubusercontent.com/py415/app-resources/master/Mockups/web/compressed/4.%20drumkit-full-screen.png">
 
 ## 💳 Credits
 
